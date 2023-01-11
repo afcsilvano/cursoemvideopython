@@ -1,0 +1,30 @@
+idade_soma = 0
+mulheres_novas = 0
+homens = 0
+homem_velho = 0
+homem_velho_nome = ''
+mulher = 'F'
+
+for p in range (1,5):
+    print(5 * '=', f'{p}ª pessoa', 5 * '=')
+    nome = input('Digite o nome da pessoa:')
+    idade = int(input('Digite quantos anos essa pessoa tem:'))
+    sexo = input('Digite o sexo da pessoa[M/F]').strip().upper()
+    print()
+    idade_soma += idade
+    if sexo == mulher:
+        if idade > 20:
+            mulheres_novas += 1
+    else:
+        homens += 1
+        if homens == 1:
+            homem_velho = idade
+            homem_velho_nome = nome
+        else:
+            if idade > homem_velho:
+                homem_velho = idade
+                homem_velho_nome = nome
+media_idade = idade_soma / 4
+print(f'A media de idade entre todos é de {media_idade}')
+print(f'O homem mais velho tem {homem_velho} anos e se chama {homem_velho_nome} ')
+print(f'E tem {mulheres_novas} mulheres abaixo dos 20 anos')

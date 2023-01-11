@@ -1,0 +1,6 @@
+x = input('Digite algo: ')
+print('o dado digitado é:')
+print(type(x))
+print('é alfabético?', x.isalpha())
+print('é numeral?', x.isnumeric())
+print('é alfanumérico?', x.isalnum())

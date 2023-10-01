@@ -1,4 +1,4 @@
-#TABELA DO BRASILEIRÃO SÉRIE B
+#TABELA DA SÉRIE B 2023 (01/10/2023)
 tabela = ('Vitória', 'Sport Recife', 'Juventude', 'Guarani', 'Novorizontino', 'Criciúma', 'Atlético-GO', 'Vila Nova',
           'Mirassol', 'CRB', 'Ceará', 'Botafogo-SP', 'Ituano', 'Sampaio Corrêa', 'Ponte Preta', 'Avaí', 'Chapecoense',
           'Tombense', 'Londrina', 'ABC')
